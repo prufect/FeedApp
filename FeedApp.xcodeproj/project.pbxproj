@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A4E8ED8A24CF784400AB2FFD /* FeedApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E8ED8024CF784400AB2FFD /* FeedApp.framework */; };
-		A4E8ED8F24CF784400AB2FFD /* FeedAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8ED8E24CF784400AB2FFD /* FeedAppTests.swift */; };
-		A4E8ED9124CF784400AB2FFD /* FeedApp.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E8ED8324CF784400AB2FFD /* FeedApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,10 +22,8 @@
 
 /* Begin PBXFileReference section */
 		A4E8ED8024CF784400AB2FFD /* FeedApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeedApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4E8ED8324CF784400AB2FFD /* FeedApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedApp.h; sourceTree = "<group>"; };
 		A4E8ED8424CF784400AB2FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4E8ED8924CF784400AB2FFD /* FeedAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4E8ED8E24CF784400AB2FFD /* FeedAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAppTests.swift; sourceTree = "<group>"; };
 		A4E8ED9024CF784400AB2FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +67,6 @@
 		A4E8ED8224CF784400AB2FFD /* FeedApp */ = {
 			isa = PBXGroup;
 			children = (
-				A4E8ED8324CF784400AB2FFD /* FeedApp.h */,
 				A4E8ED8424CF784400AB2FFD /* Info.plist */,
 			);
 			path = FeedApp;
@@ -80,7 +75,6 @@
 		A4E8ED8D24CF784400AB2FFD /* FeedAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4E8ED8E24CF784400AB2FFD /* FeedAppTests.swift */,
 				A4E8ED9024CF784400AB2FFD /* Info.plist */,
 			);
 			path = FeedAppTests;
@@ -93,7 +87,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E8ED9124CF784400AB2FFD /* FeedApp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E8ED8F24CF784400AB2FFD /* FeedAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
